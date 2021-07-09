@@ -1,0 +1,51 @@
+* {
+    box-sizing: 1px;
+    margin: 10;
+    padding: 10;
+    font-family: Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    
+  }
+
+.keseluruhan {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.judul {
+
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.judul2 {
+    
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.divtombol{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    left: 0px;
+    right: 0px;
+    /* transform: translateX(-40%) translateY(-40%); */
+
+}
+
+.aaalign-center {
+    position: relative;
+    top: 10%;
+}
+
