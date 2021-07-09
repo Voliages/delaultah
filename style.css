@@ -1,0 +1,125 @@
+* {
+    box-sizing: 1px;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    
+  }
+
+.keseluruhan {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.judul {
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.judul2 {
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.divtombol{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    left: 0px;
+    right: 0px;
+    /* transform: translateX(-40%) translateY(-40%); */
+
+}
+
+.aaalign-center {
+    position: relative;
+    top: 10%;
+}
+
+.tombol {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1px 1px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+  
+}
+
+.tomb1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #df2323;
+}
+
+@-webkit-keyframes lompat {
+    0% {
+        transform: translateY(-15%);
+    }
+
+    25% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(-5%);
+    }
+
+    75% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(-15%);
+    }
+}
+
+@keyframes lompat {
+    0% {
+        transform: translateY(-15%);
+    }
+
+    25% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(-5%);
+    }
+
+    75% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(-15%);
+    }
+}
+
+.tomb1:hover {
+    background-color: #df2323;
+    color: white;
+    /* transform: translateY(-15%); */
+    font-weight: bolder;
+    -webkit-animation: lompat 0.8s infinite;
+    animation:lompat 0.8s infinite;
+}

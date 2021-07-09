@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="home_style.css">
+        <link rel="icon" href="https://i.ibb.co/CQb2M9N/jul-ico.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+
+
+        <title>Hari Ini 18 Tahun</title>
+    
+    <body>
+        <div class="keseluruhan">
+            <p class="tekssatu"  id="tekssatu"  style="font-size: 90px;">
+                hai
+            </p>
+
+            <div class="teksdua" id="teksdua" style="display: none; font-size: 50px;">
+                <p style="font-size: 50px;">ndak terasa hari ini udah <span style="font-size: 55px; color: red;" class="count"> 18</span> tahun </p>
+            </div>
+            
+            <div class="tekstiga" id="tekstiga" style="display: none; font-size: 50px;">
+                <p style="font-size: 90px;">ya ndak sih?</p>
+            </div>
+
+            <div class="teksempat" id="teksempat" style="display: none; font-size: 50px;">
+                <p style="font-size: 41px;">kek baru kemarin rasanya jatuh tepelecok dari batu pas mau foto</p>
+            </div>
+
+            <div class="tekslima" id="tekslima" style="display: none; font-size: 50px;">
+                <p style="font-size: 50px;">cuma mau ngucapin happy birthday sih</p>
+            </div>
+
+            <div class="teksenam" id="teksenam" style="display: none; font-size: 60px;">
+                <p style="font-size: 50px;">wuatb</p>
+            </div>
+
+            <div class="tekstujuh" id="tekstujuh" style="display: none; font-size: 60px;">
+                <p style="font-size: 50px;">gbu</p>
+            </div>
+
+            <div class="teksdelapan" id="teksdelapan" style="display: none; font-size: 60px;">
+                <p style="font-size: 50px;">makasih selalu ada</p>
+            </div>
+
+        </div>
+    
+
+    </body>
+
+    <script>
+        $('#tekssatu').hide();
+        setTimeout(function(){ $('#tekssatu').show(); }, 500)
+
+        $("#tekssatu").show();
+        setTimeout(function() { $("#tekssatu").hide(); }, 4900);
+
+
+        $("#teksdua").hide();
+        setTimeout(function() { $("#teksdua").show(); }, 5000);
+
+        $('.count').delay(5200).each(function () {
+        $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+        }, {
+        duration: 5000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+
+        setTimeout(function() { $("#teksdua").hide(); }, 11500);
+
+        $("#tekstiga").hide();
+        setTimeout(function() { $("#tekstiga").show(); }, 13000);
+
+        setTimeout(function() { $("#tekstiga").hide(); }, 16000);
+
+        $("#teksempat").hide();
+        setTimeout(function() { $("#teksempat").show(); }, 17100);
+
+        setTimeout(function() { $("#teksempat").hide(); }, 23000);
+
+        $("#tekslima").hide();
+        setTimeout(function() { $("#tekslima").show(); }, 24500);
+
+        setTimeout(function() { $("#tekslima").hide(); }, 30000);
+
+        $("#teksenam").hide();
+        setTimeout(function() { $("#teksenam").show(); }, 31500);
+
+        setTimeout(function() { $("#teksenam").hide(); }, 33500);
+
+        $("#tekstujuh").hide();
+        setTimeout(function() { $("#tekstujuh").show(); }, 34000);
+
+        setTimeout(function() { $("#tekstujuh").hide(); }, 37000);
+
+        $("#teksdelapan").hide();
+        setTimeout(function() { $("#teksdelapan").show(); }, 38500);
+
+        setTimeout(function() { $("#teksdelapan").hide(); }, 42500);
+
+        window.setTimeout(function() {
+        window.location.href = 'kue.html';
+        }, 46000);
+        
+    </script>
